@@ -11,7 +11,7 @@ The goal:
 - Provide a simple daily report pipeline: from SQL query → to Power BI dashboard.
 
 ---
-📂 Project Structure & Docs
+## Project Structure & Docs
 
  1. [Setup](01-setup.md)  
  → Setting up the database & inserting sample data
