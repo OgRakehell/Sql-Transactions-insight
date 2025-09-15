@@ -8,7 +8,28 @@ This project is a **replica** using synthetic data, designed to demonstrate the 
 
 The goal:  
 - Help new team members understand how we break down transaction performance.  
-- Provide a simple daily report pipeline: from SQL query → to Power BI dashboard.  
+- Provide a simple daily report pipeline: from SQL query → to Power BI dashboard.
+
+---
+📂 Project Structure & Docs
+
+01-setup.md
+ → Setting up the database & inserting sample data
+
+02-sql-query.md
+ → The SQL query explained + screenshots of results
+
+03-powerbi-connection.md
+ → How to connect SQL → Power BI
+
+04-visuals.md
+ → Building visuals in Power BI
+
+05-refresh.md
+ → (Optional) How to refresh data (DirectQuery / scheduled refresh)
+
+screenshots/
+ → Folder for images used in docs
 
 ---
 
