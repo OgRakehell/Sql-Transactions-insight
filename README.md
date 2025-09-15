@@ -13,22 +13,22 @@ The goal:
 ---
 📂 Project Structure & Docs
 
-01-setup.md
+ 1. [Setup](01-setup.md)  
  → Setting up the database & inserting sample data
 
-02-sql-query.md
+ 2. [SQLquery](02-sql-query.md)  
  → The SQL query explained + screenshots of results
 
-03-powerbi-connection.md
+ 3. [PowerBi Connection](03-powerbi-connection.md)  
  → How to connect SQL → Power BI
 
-04-visuals.md
+ 4. [Visuals](04-visuals.md)  
  → Building visuals in Power BI
 
-05-refresh.md
+ 5. [Refresh](05-refresh.md )  
  → (Optional) How to refresh data (DirectQuery / scheduled refresh)
 
-screenshots/
+- screenshots/
  → Folder for images used in docs
 
 ---
