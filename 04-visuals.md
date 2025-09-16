@@ -13,8 +13,9 @@ They show how the data can be represented but are not fully polished dashboards 
 * **Axis** → TransactionType
 * **Values** → TotalCount
 
-*(screenshot: column chart showing counts per transaction type)*
+>(screenshot: column chart showing counts per transaction type)
 
+![Total Transactions per Type](screenshot/TotalTransactions.png)
 ---
 
 ### **2. Transaction Volume**
@@ -22,7 +23,9 @@ They show how the data can be represented but are not fully polished dashboards 
 * Use a **Card visual** to display the total **TransactionVolume**.
 * This gives management a one-glance idea of the day’s money flow.
 
-*(screenshot: card showing ₦ value of transactions)*
+>(screenshot: card showing ₦ value of transactions)
+
+![Transaction Volume](screenshot/TranVolume.png)
 
 ---
 
@@ -32,7 +35,9 @@ They show how the data can be represented but are not fully polished dashboards 
 * **Values** → SuccessCount + (CustomerFailCount + SwitchFailCount + SystemFailCount)
 * **Legend** → Category (Success, Failure)
 
-*(screenshot: donut chart splitting Success vs Failure)*
+>(screenshot: donut chart splitting Success vs Failure)
+
+![Success vs Failures](screenshot/SuccessfulAndFailures.png)
 
 ---
 
@@ -43,7 +48,9 @@ They show how the data can be represented but are not fully polished dashboards 
 * **Values** → CustomerFailCount, SwitchFailCount, SystemFailCount
 * This shows not just how many failed, but *why* they failed.
 
-*(screenshot: stacked bar chart with failure categories)*
+>(screenshot: stacked bar chart with failure categories)
+
+![Breakdown of Failures](screenshot/FailureBreakdown.png)
 
 ---
 
