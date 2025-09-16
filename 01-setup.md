@@ -55,6 +55,10 @@ VALUES
 
 Now you can run your report query exactly as you wrote it. It’ll classify successes, failures, and breakdowns into Customer, Switch, System categories.
 
+> Screenshot of my setup process
+
+![SQL](screenshot/SQL.png)
+
 
 
 
