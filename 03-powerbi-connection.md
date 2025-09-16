@@ -4,7 +4,9 @@
 
 Launch Power BI Desktop and head to **Home → Get Data → SQL Server**.
 
-*(screenshot here: Get Data window)*
+>screenshot here: Get Data window
+
+![powerbi-connection](screenshot/GetData.png)
 
 ---
 
@@ -13,8 +15,6 @@ Launch Power BI Desktop and head to **Home → Get Data → SQL Server**.
 * In **Server**, type in your SQL Server name (e.g., `localhost` or the instance name).
 * In **Database**, type the name where your `Transactions` table lives.
 * Click **OK**.
-
-*(screenshot here: SQL Server connection dialog)*
 
 ---
 
@@ -30,7 +30,6 @@ For daily reports, **DirectQuery** is often better since it fetches fresh result
 Instead of importing the whole table, select **Advanced options → SQL statement**.
 Then paste the query from the previous step.
 
-*(screenshot here: SQL query pasted into Power BI connection window)*
 
 ---
 
@@ -39,7 +38,7 @@ Then paste the query from the previous step.
 Click **OK → Load**.
 Your summarized table should now appear in Power BI under **Fields**.
 
-*(screenshot here: loaded fields in Power BI Fields pane)*
+![load Data](screenshot/Fields.png)
 
 ---
 
